@@ -17,8 +17,7 @@ O projeto foi desenvolvido a partir de um código-base fornecido em tutorial, co
 ## Repositório Original (Base do Projeto)
 
 - Repositório utilizado como base para o desenvolvimento:  
-  https://github.com/safak/youtube2022/tree/react-admin-dashboard
-
+https://github.com/ZainRk/React-Admin-Dashboard-public
 ---
 
 ## Objetivo da Atividade
