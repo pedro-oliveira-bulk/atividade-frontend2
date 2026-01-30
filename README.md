@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+# Atividade Front-end 02 – React Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém a implementação da **Atividade Prática – Vídeo 02**, referente ao desenvolvimento e customização de um **Painel Administrativo Responsivo em React**.
 
-## Available Scripts
+O projeto foi desenvolvido a partir de um código-base fornecido em tutorial, com modificações solicitadas na atividade.
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## Vídeo de Referência
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React Responsive Admin Panel Tutorial | React Admin Dashboard Template Design**
+- Link do YouTube:  
+  https://www.youtube.com/watch?v=K7vHoUwClaM
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `yarn test`
+## Repositório Original (Base do Projeto)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Repositório utilizado como base para o desenvolvimento:  
+  https://github.com/safak/youtube2022/tree/react-admin-dashboard
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Objetivo da Atividade
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Compreender conceitos fundamentais de **React**, como:
+- Manipulação de estado
+- Componentização
+- Estruturação de interfaces dinâmicas
+- Estilização com CSS
+- Organização de dados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tudo isso aplicado no desenvolvimento de um **dashboard administrativo responsivo**.
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Modificações Realizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Barra Lateral (Sidebar)
+- Alteração do nome dos **cinco itens do menu**
+- Alteração da cor da sidebar para um **tom de verde**, utilizando variáveis CSS globais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Dashboard Miniatura
+- Percentual alterado de **80% para 50%**
+- Valor alterado de **14,270 para 12,345**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Dashboard Expandido
+- Alteração dos valores exibidos no gráfico
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### Mensagens (Updates)
+- Alteração do nome **James Bond**
+- Alteração do texto da mensagem
+- Alteração da imagem associada à mensagem
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### Tabela (Status)
+A coluna **Status** foi ajustada para conter:
+- **2 linhas** com status: `Delivered`
+- **1 linha** com status: `Pending`
+- **1 linha** com status: `Approved`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Tecnologias Utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React.js
+- JavaScript (ES6+)
+- CSS
+- Material UI
+- Framer Motion
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Como Executar o Projeto
 
-### Deployment
+### Clonar o repositório
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/pedro-oliveira-bulk/atividade-frontend2.git
+```
 
-### `yarn build` fails to minify
+Acesse a pasta do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+cd atividade-frontend2
+```
+
+---
+
+### Verificar dependências
+
+Certifique-se de que o **Node.js** e o **npm** estão instalados:
+
+```bash
+node -v
+npm -v
+```
+
+Caso não estejam instalados, faça o download em:  
+https://nodejs.org  
+
+(Recomenda-se a versão **LTS**)
+
+---
+
+### Instalar as dependências do projeto
+
+Devido a possíveis conflitos entre versões de bibliotecas do React, utilize o comando:
+
+```bash
+npm install --legacy-peer-deps
+```
+
+---
+
+### Executar o projeto
+
+Após a instalação das dependências, execute:
+
+```bash
+npm start
+```
+
+---
+
+### Acessar no navegador
+
+O projeto será iniciado automaticamente.  
+Caso não abra, acesse manualmente no navegador:
+
+```
+http://localhost:3000
+```
+
+---
+
+## Resultado Final
+
+O painel administrativo em React será exibido com todas as **modificações solicitadas na Atividade Front-end 02**, incluindo ajustes visuais, alterações de dados e personalizações de componentes.
