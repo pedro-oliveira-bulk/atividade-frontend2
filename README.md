@@ -29,7 +29,6 @@ Compreender conceitos fundamentais de **React**, como:
 - Estilização com CSS
 - Organização de dados
 
-Tudo isso aplicado no desenvolvimento de um **dashboard administrativo responsivo**.
 
 ---
 
@@ -105,8 +104,6 @@ npm -v
 Caso não estejam instalados, faça o download em:  
 https://nodejs.org  
 
-(Recomenda-se a versão **LTS**)
-
 ---
 
 ### Instalar as dependências do projeto
@@ -140,6 +137,3 @@ http://localhost:3000
 
 ---
 
-## Resultado Final
-
-O painel administrativo em React será exibido com todas as **modificações solicitadas na Atividade Front-end 02**, incluindo ajustes visuais, alterações de dados e personalizações de componentes.
